@@ -1,0 +1,424 @@
+@media only screen and (max-width: 1024px) {
+
+
+
+    .banner-c1 .bnr-announcement span {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .banner-c1 h1 {
+        font-size: 52px;
+        line-height: 58px;
+        max-width: 650px;
+    }
+
+    .banner-c1 h1 span::before {
+        left: -20px;
+        bottom: -13px;
+        right: -22px;
+        top: -28px;
+    }
+
+    .banner-c1 p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .save-box-title h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .save-cntnt p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .timing-cntnt-holder {
+        padding: 40px;
+    }
+}
+
+
+
+@media only screen and (max-width: 990px) {
+
+
+    .banner-sec {
+        padding: 180px 0px 80px;
+    }
+
+    .banner-c1 .bnr-announcement span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .banner-c1 h1 {
+        font-size: 48px;
+        line-height: 56px;
+        max-width: 600px;
+    }
+
+    .banner-c1 h1 span::before {
+        left: -16px;
+        bottom: -17px;
+        right: -20px;
+        top: -27px;
+    }
+
+    .banner-c1 p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .quotes-sec {
+        padding: 80px 0px 30px;
+    }
+
+    .quotes-title h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .save-sec {
+        padding: 30px 0px 80px;
+    }
+
+    .save-title h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .save-box {
+        flex-direction: column;
+    }
+
+    .save-box-title h3 {
+        min-height: auto;
+        margin-top: 0;
+    }
+
+    .timing-cntnt-holder h2 {
+        font-size: 36px;
+        line-height: 42px;
+        max-width: 600px;
+    }
+
+    .timing-cntnt-holder h2 span::before {
+        left: -16px;
+    }
+
+    .disclaimer-title h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .show-badge .credit-badge,
+    .credit-badge {
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .site-logo .logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .care-banner-sec {
+        padding: 80px 0px 30px;
+    }
+
+    .site-logo p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .header-call a {
+        padding: 12px 15px;
+        gap: 6px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .header-call span img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .banner-row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .banner-c1 {
+        order: 2;
+    }
+
+    .banner-c2 {
+        order: 1;
+    }
+
+    .banner-c1 h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .quotes-sec {
+        padding: 60px 0px 30px;
+    }
+
+    .quotes-title h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .quotes-row {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px 30px;
+        display: block;
+    }
+
+    .quote-logo {
+        padding: 20px;
+    }
+
+    .save-sec {
+        padding: 30px 0px 60px;
+    }
+
+    .save-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .save-cta a p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .save-cta a p span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .timing-cntnt-holder {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timing-cntnt-holder h2 {
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 440px;
+        text-align: center;
+    }
+
+    .disclaimer-title h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575px) {
+
+    .header-row {
+        justify-content: center;
+    }
+
+    .care-banner-sec {
+        padding: 40px 0px 20px;
+    }
+
+    .site-logo .logo {
+        width: 28px;
+        height: 28px;
+    }
+
+    .site-logo a {
+        gap: 10px;
+    }
+
+    .header-call {
+        display: none;
+    }
+
+    .banner-sec {
+        padding: 120px 0px 60px;
+    }
+
+    .site-logo p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .header-call a {
+        padding: 10px 8px;
+    }
+
+    .banner-c1 .bnr-announcement span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .banner-c1 h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0px auto 20px;
+    }
+
+    .banner-c1 h1 span::before {
+        left: -10px;
+        bottom: -14px;
+        right: -28px;
+        top: -26px;
+    }
+
+    .banner-c1 p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .banner-c1 a {
+        padding: 20px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .banner-c1 a img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .quotes-title h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .quote-logo {
+        padding: 0px 8px;
+    }
+
+    .quotes-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .save-title h2 {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 100%;
+    }
+
+    .save-row {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+
+    .save-box {
+        flex-direction: row;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .save-box-title h3 {
+        min-height: 40px;
+        margin-top: 0;
+    }
+
+    .save-ico {
+        height: 40px;
+        width: 40px;
+    }
+
+    .save-ico img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .save-cntnt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .save-cta a {
+        padding: 20px;
+        margin: 40px auto 0;
+        gap: 12px;
+    }
+
+    .save-cta a .ico {
+        height: 40px;
+        width: 40px;
+    }
+
+    .save-cta a img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .save-cta i {
+        font-size: 18px;
+    }
+
+    .save-cta a p {
+        font-size: 16px;
+    }
+
+    .save-cta a p span {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 2px;
+    }
+
+    .timing-cntnt-holder {
+        padding: 60px 20px;
+    }
+
+    .timing-cntnt-holder h2 {
+        font-size: 24px;
+        line-height: 30px;
+        max-width: 370px;
+    }
+
+    .timing-cntnt-holder h2 span::before {
+        left: -10px;
+    }
+
+    .disclaimer-title h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .copyright-cntnt {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .copyright-c1 p,
+    .copyright-c1 a,
+    .copyright-c2 ul li a {
+
+        line-height: 22px;
+
+    }
+
+    .timing-cntnt-holder img {
+        max-width: 200px;
+    }
+}
